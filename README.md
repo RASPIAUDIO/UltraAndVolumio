@@ -20,7 +20,7 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
       
           #### OR create it from the source file ultra.c:
           
-          *=>gcc -o ultra ultra.c*
+          ###### =>gcc -o ultra ultra.c
           
          ("gcc" may not be available on the standard Volumio distrib!...) 
             
@@ -32,7 +32,7 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
               
           for this you can use "nano":
               
-          *=>sudo nano /etc/rc.local*
+          ###### =>sudo nano /etc/rc.local
  4. restart:
  
       *=>reboot*
