@@ -10,7 +10,7 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
      * A. Load this repositery :
      
         ###### => git clone https://github.com/RASPIAUDIO/UltraAndVolumio.git
-     * B. Validate the repository:
+     * B. Validate "ultra":
      
          #### directly:
          
