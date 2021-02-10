@@ -12,13 +12,13 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
         *=> git clone https://github.com/RASPIAUDIO/UltraAndVolumio.git*
      * B. validate the repository:
      
-         ####directly:
+         #### directly:
          
          *=>cd UltraAndVolumio*
          
          *=>chmod 777 ultra*  
       
-          OR create it from the source file ultra.c:
+          #### OR create it from the source file ultra.c:
           
           *=>gcc -o ultra ulta.c*
           
