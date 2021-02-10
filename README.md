@@ -18,15 +18,23 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
          
          *=>chmod 777 ultra*  
       
-             or create it from the source file ultra.c</h5>
-                 gcc -o ultra ulta.c 
-      >      ( "gcc" may not be available on the standard Volumio distrib!)            
+          OR create it from the source file ultra.c:
+          
+          *=>gcc -o ultra ulta.c*
+          
+            ( "gcc" may not be available on the standard Volumio distrib!) 
+            
      * C. Prepare the execution of "ultra" at each start
-    >            you have to add this line: 
-     >         "/home/volumio/UltraAndVolumio/ultra&"
-     >          in the file "/etc/rc.local" just before the line "exit 0"
-     >          for this you can use "nano"
-     >               sudo nano /etc/rc.local
+     
+           you have to add this line: 
+               
+             "/home/volumio/UltraAndVolumio/ultra&"
+             
+              in the file "/etc/rc.local" just before the line "exit 0"
+              
+              for this you can use "nano"
+              
+           *=>sudo nano /etc/rc.local*
  4. restart
     > reboot
      
