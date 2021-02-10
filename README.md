@@ -1,6 +1,7 @@
 # UltraAndVolumio
 This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound card
-*(because the  WS driver cannot be installed for the moment...)*
+
+(because the  WS driver cannot be installed for the moment...)
 
 ## How to install it ?
 1. Install Volumio on a SD
