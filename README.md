@@ -5,12 +5,12 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
 
 ## How to install it ?
 1. Install Volumio on a SD
-2. initialize Volumio as usual and choose "raspiaudio" in the "i2s" section
+2. Initialize Volumio as usual and choose "raspiaudio" in the "i2s" section
 3. On the RasberryPI directly or via "ssh" do these operations:
-     * A. load this repositery :
+     * A. Load this repositery :
      
         *=> git clone https://github.com/RASPIAUDIO/UltraAndVolumio.git*
-     * B. validate the repository:
+     * B. Validate the repository:
      
          #### directly:
          
@@ -24,7 +24,7 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
           
          ("gcc" may not be available on the standard Volumio distrib!...) 
             
-     * C. Prepare the execution of "ultra" at each start
+     * C. Prepare the execution of "ultra" every time Volumio starts:
      
           you have to add this line: "/home/volumio/UltraAndVolumio/ultra&"
              
