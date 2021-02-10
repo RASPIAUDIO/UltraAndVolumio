@@ -1,7 +1,7 @@
 # UltraAndVolumio
 This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound card
 
-(because the  WS driver cannot be installed for the moment...)
+###### (the  WS driver cannot be installed for the moment...)
 
 ## How to install it ?
 1. Install Volumio on a SD
@@ -33,8 +33,9 @@ This workaround allows you to use VOLUMIO on a Raspberry PI with an ULTRA+ sound
           for this you can use "nano":
               
           *=>sudo nano /etc/rc.local*
- 4. restart
-           *=>reboot*
+ 4. restart:
+ 
+      *=>reboot*
      
 
 
