@@ -59,9 +59,18 @@ void main()
 	usleep(10000);	
 	st += write_i2c(7, 0x002);
 	usleep(10000);	
-	//Noise control
+	//ALC and Noise control
+	/*
 	st += write_i2c(20, 0x0F9);
-	usleep(10000);	
+	usleep(10000);
+        st += write_i2c(17, 0x1FB);
+        usleep(10000);  
+        st += write_i2c(18, 0x000);
+        usleep(10000);  
+        st += write_i2c(19, 0x032);
+        usleep(10000);  
+*/
+	
 	//OUT1 volume
 	st += write_i2c(2, 0x16F);
 	usleep(500);	
@@ -72,6 +81,7 @@ void main()
 	usleep(500);
 	st += write_i2c(41, 0x17F);
 	usleep(500);
+        st += write_i2c(51, 0x0CD);
 	// input volume
 	st += write_i2c(0, 0x13F);
 	usleep(10000);	
